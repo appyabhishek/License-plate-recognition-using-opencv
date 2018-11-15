@@ -27,7 +27,7 @@ def main():
         print("\nerror: KNN traning was not successful\n")               # show error message
         return                                                          # and exit program
     # end if
-    video_src = 'dataset/IMG_0727.MOV'
+    video_src = 'IMG_0727.MOV'
     live1 = vehicle_detection.TakeSnapshotAndSave(video_src)
     #print()
 
